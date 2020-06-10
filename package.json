@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "test",
+  "author": "李荣",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "pm2-runtime start nuxt --name nuxt-demo -- start -i 0",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "axios": "^0.18.1",
+    "less": "^3.11.1",
+    "less-loader": "^6.1.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
